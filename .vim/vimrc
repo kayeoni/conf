@@ -1,6 +1,6 @@
 set nocompatible
-syntax enable				" enable syntax processing
-colorscheme jellybeans
+colorscheme murphy
+syntax enable               " enable syntax phocessing
 filetype plugin on
 filetype indent on
 set path+=**
@@ -9,8 +9,6 @@ set tabstop=4				" number of visual spaces per TAB
 set expandtab				" tabs are spaces
 set number					" show line numbers
 set autoindent				" auto indent
-set smartindent				" smart indent
-set cindent					" c indent
 set showmatch				" highlighting matching [{()}]
 set incsearch				" search as characters are entered
 set hlsearch				" highlight matches
