@@ -12,4 +12,3 @@ set autoindent				" auto indent
 set showmatch				" highlighting matching [{()}]
 set incsearch				" search as characters are entered
 set hlsearch				" highlight matches
-set background=dark
