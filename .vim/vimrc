@@ -1,5 +1,5 @@
 set nocompatible
-colorscheme murphy
+colorscheme jellybeans
 syntax enable           " enable syntax processing
 filetype plugin on
 filetype indent on
