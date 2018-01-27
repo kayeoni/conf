@@ -1,6 +1,7 @@
 set nocompatible
-colorscheme jellybeans
 syntax enable           " enable syntax processing
+let g:solarized_termcolors=256
+colorscheme jellybeans
 filetype plugin on
 filetype indent on
 set path+=**
