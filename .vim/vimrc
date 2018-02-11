@@ -20,6 +20,4 @@ set cursorline          " highlight current line
 filetype plugin on
 call plug#begin('~/.vim/plugged')
 
-Plug 'scrooloose/nerdtree', { 'on' : 'NERDTreeToggle' }
-
 call plug#end()
