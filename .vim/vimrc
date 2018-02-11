@@ -2,7 +2,6 @@ set nocompatible
 syntax enable           " enable syntax processing
 let g:solarized_termcolors=256
 colorscheme jellybeans
-filetype plugin on
 filetype indent on
 set path+=**
 set wildmenu			" visual autocomplete for command menu
@@ -16,3 +15,11 @@ set cindent             " c indent
 set showmatch			" highlighting matching [{()}]
 set incsearch			" search as characters are entered
 set hlsearch			" highlight matches
+set cursorline          " highlight current line
+
+filetype plugin on
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree', { 'on' : 'NERDTreeToggle' }
+
+call plug#end()
