@@ -1,7 +1,7 @@
 set nocompatible
 syntax enable           " enable syntax processing
 let g:solarized_termcolors=256
-colorscheme jellybeans
+set background=dark     " set background dark
 filetype indent on
 set path+=**
 set wildmenu			" visual autocomplete for command menu
@@ -19,5 +19,7 @@ set cursorline          " highlight current line
 
 filetype plugin on
 call plug#begin('~/.vim/plugged')
+
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
